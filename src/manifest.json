@@ -1,0 +1,29 @@
+{
+  "package": "com.wang283.watchweather",
+  "name": "腕上天气",
+  "icon": "/common/logo.png",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minAPILevel": 1,
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.fetch"
+    }
+  ],
+  "config": {
+    "logLevel": "log",
+    "designWidth": 432
+  },
+  "router": {
+    "entry": "index",
+    "pages": {
+      "index": "pages/index/index"
+    }
+  },
+  "display": {
+    "backgroundColor": "#000000"
+  }
+}

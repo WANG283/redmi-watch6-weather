@@ -1,0 +1,13 @@
+{
+  "name": "redmi-watch6-weather",
+  "version": "1.0.0",
+  "description": "为 Redmi Watch 6 打造的天气时钟 Vela 快应用：大字时钟 + Open-Meteo 免费天气接口（无需 API Key），城市坐标可改，eSIM 版可独立联网。",
+  "scripts": {
+    "build": "aiot build",
+    "release": "aiot release",
+    "watch": "aiot watch"
+  },
+  "devDependencies": {
+    "@aiot-toolkit/aiot": "^2.0.0"
+  }
+}
